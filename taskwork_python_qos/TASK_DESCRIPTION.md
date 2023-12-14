@@ -43,7 +43,7 @@ The QoS metric is computed in the following steps:
 
 4. In the next step, we use a cumulative distribution of the consumption profiles to map absolute time into percentages in the x-axis. We do it to give more importance to those moments where many purchases happen and less to those times of the week when almost no purchases happen. ![alt text](https://github.com/felfel-tech/recruiting/blob/main/taskwork_python_qos/images/img_3.png)
 
-5. In order to compute our QoS metric from the blue curve above, we need to calculate the area under it resulting in a number between 0% and 100%.
+5. In order to compute our QoS metric from the blue curve above, we calculate the area under it resulting in a number between 0% and 100%.
 
 ## Your deliverables
 1. Set a database structure using a technology of your choice and ingest the provided data into it.
