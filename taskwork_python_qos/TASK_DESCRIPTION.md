@@ -48,5 +48,5 @@ The QoS metric is computed in the following steps:
 ## Your deliverables
 1. Set a database structure using a technology of your choice and ingest the provided data into it.
 2. Implement and unit test computation of the QoS metric according to the description above, run it for all the given locations and weeks and save the results in a dedicated table in the previously created database.
-3. (Optional) Implement a GET endpoint returning the final information in a json format.
+3. (Optional) Implement a web server to serve the final information over HTTP using a RESTful architecture.
 4. Consider areas for improvement in this algorithm and list them, along with any other suggestions that occurred to you while working on this task.
