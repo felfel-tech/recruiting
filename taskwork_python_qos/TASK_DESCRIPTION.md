@@ -55,7 +55,7 @@ The QoS metric is computed in the following steps:
 6. In order to compute our QoS metric from the blue curve above, we calculate the area under it resulting in a number between 0% and 100%.
 
 ## Your deliverables
-1. Set a database structure using a technology of your choice and ingest the provided data into it.
-2. Implement and unit test computation of the QoS metric according to the description above, run it for all the given locations and weeks and save the results in a dedicated table in the previously created database.
+1. **Implement and unit test computation of the QoS metric according to the description above, run it for all the given locations and weeks and save the results (e.g., as a csv file).** For time reasons, you don’t have to write very extensive unit tests – it’s enough if you implement a few of them and describe what other aspects of the algorithm you would test. The more the merrier, though :wink:
+2. (Optional) Set a database structure using a technology of your choice, ingest the provided data into it and adjust your algorithm such that it reads the data from this database and saves the results in a dedicated table there.
 3. (Optional) Implement a web server to serve the final information over HTTP using a RESTful architecture.
 4. Consider areas for improvement in this algorithm and list them, along with any other suggestions that occurred to you while working on this task.
